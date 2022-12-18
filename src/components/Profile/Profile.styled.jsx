@@ -41,7 +41,8 @@ export const ProfileStatsItem = styled.li`
 `;
 export const ProfileLabel = styled.span`
   display: block;
-  color: ${props => `${props.theme.colors.white}; font-size: 16px;`};
+  color: ${props => `${props.theme.colors.white}`};
+  font-size: 16px;
 `;
 export const ProfileQuantity = styled.span`
   display: block;
